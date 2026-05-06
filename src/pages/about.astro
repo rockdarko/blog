@@ -1,0 +1,25 @@
+---
+import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="About"
+	description="About Rock Martel-Langlois."
+	pubDate={new Date('May 06 2026')}
+	heroImage={AboutHeroImage}
+>
+	<p>
+		I'm Rock Martel-Langlois. Online I go by Darko.
+	</p>
+
+	<p>
+		This blog is for notes on systems — the technical kind (observability, SRE,
+		platform engineering) and occasionally the broader kind.
+	</p>
+
+	<p>
+		Find me on <a href="https://github.com/rockdarko" rel="me">GitHub</a>
+		or <a href="https://www.linkedin.com/in/rock-martel-langlois-437771169/" rel="me">LinkedIn</a>.
+	</p>
+</Layout>
