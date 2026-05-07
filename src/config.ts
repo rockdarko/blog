@@ -1,9 +1,9 @@
 export const SITE = {
-  website: "https://blog.darko.vision/",
+  website: "https://rockdarko.dev/",
   author: "Rock Martel-Langlois",
   profile: "https://github.com/rockdarko",
-  desc: "Rock Martel-Langlois — notes on systems, observability, and accountability.",
-  title: "blog.darko.vision",
+  desc: "Rock Martel-Langlois, notes on systems, observability, and accountability.",
+  title: "rockdarko.dev",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: false,
   postPerIndex: 4,
