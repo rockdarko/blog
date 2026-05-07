@@ -24,7 +24,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
       <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Hello — I'm Rock Martel-Langlois.
+        Hello World! :)
       </h1>
       <a
         target="_blank"
@@ -42,11 +42,32 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-        Online I go by Darko. This is my blog.
+        I'm Rock. I work as a DevOps/SRE. Not "engineer" though: in Quebec
+        the title is legally protected, you sit an exam to earn it, and
+        honestly I'm glad. Everywhere else, "engineer" gets stretched so
+        thin it stops meaning anything.
       </p>
-      <p class="mt-2">
-        I write about systems &mdash; mostly technical (observability, SRE,
-        platform engineering), sometimes broader.
+      <p class="mt-4">
+        I've been at this for 25-plus years: local IT support, then
+        infrastructure at scale, a stint in education, eventually landing
+        in CI/CD and observability, which is where I stayed. The AI wave
+        hasn't dulled the appeal; if anything it's sharpened it. The more
+        software the world ships, the more interesting observability gets.
+        And AI itself isn't getting a pass: costs to control, quality to
+        track, a parade of new KPIs to keep up with.
+      </p>
+      <p class="mt-4">
+        I love Ansible. Use it daily. It's my best friend. Grafana is
+        right up there too. Big fan of open source in general.
+      </p>
+      <p class="mt-4">
+        Day job is in the public sector. Every dollar I spend on tooling
+        is a taxpayer dollar, and I take that seriously. It keeps me
+        biased toward boring, well-supported tooling over shiny.
+      </p>
+      <p class="mt-4">
+        My view: everything can be observed, optimized, and automated.
+        This is where I'll explore that and share what I find.
       </p>
       {
         // only display if at least one social link is enabled
