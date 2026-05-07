@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
@@ -9,6 +10,7 @@ import Card from "@/components/Card.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
+import meImage from "@/assets/images/me.jpg";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 
@@ -23,25 +25,35 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Hello World! :)
-      </h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="inline-block"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
+      <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:gap-8">
+        <Image
+          src={meImage}
+          alt="Rock"
+          width={320}
+          height={320}
+          loading="eager"
+          class="size-32 shrink-0 rounded-full object-cover sm:size-40"
         />
-        <span class="sr-only">RSS Feed</span>
-      </a>
+        <div class="flex-1">
+          <h1 class="my-4 inline-block text-4xl font-bold sm:mt-0 sm:mb-2 sm:text-5xl">
+            Hello World! :)
+          </h1>
+          <a
+            target="_blank"
+            href="/rss.xml"
+            class="inline-block align-middle"
+            aria-label="rss feed"
+            title="RSS Feed"
+          >
+            <IconRss
+              width={20}
+              height={20}
+              class="scale-125 stroke-accent stroke-3 rtl:-rotate-90"
+            />
+            <span class="sr-only">RSS Feed</span>
+          </a>
 
-      <p>
+          <p class="mt-4">
         I'm Rock. I work as a DevOps/SRE. Not "engineer" though: in Quebec
         the title is legally protected, you sit an exam to earn it, and
         honestly I'm glad. Everywhere else, "engineer" gets stretched so
@@ -59,6 +71,12 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <p class="mt-4">
         I love Ansible. Use it daily. It's my best friend. Grafana is
         right up there too. Big fan of open source in general.
+      </p>
+      <p class="mt-4">
+        Other things I won't shut up about: cats (my own, plus any cat
+        in the street). Plants (the house is a jungle, the office is
+        also a jungle). And Final Fantasy VIII, which I'm aware is
+        controversial, and which I refuse to apologize for.
       </p>
       <p class="mt-4">
         Day job is in the public health sector. Every dollar I spend on tooling
@@ -80,6 +98,8 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           </div>
         )
       }
+        </div>
+      </div>
     </section>
 
     {
