@@ -14,6 +14,8 @@ ogImage: "../../assets/images/posts/grafana-claude-code/hero.png"
 
 Claude Code emits OpenTelemetry metrics over OTLP. Anthropic publishes the metric names. So all that was missing, if you run a Prometheus-compatible backend, was a dashboard. Here is one.
 
+![Claude Code Metrics dashboard cover image](../../assets/images/posts/grafana-claude-code/hero.png)
+
 - Grafana Labs: [dashboard 25255](https://grafana.com/grafana/dashboards/25255-claude-code-metrics-prometheus/)
 - Source: [github.com/rockdarko/claude-code-metrics-prometheus](https://github.com/rockdarko/claude-code-metrics-prometheus)
 - License: MIT
