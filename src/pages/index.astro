@@ -11,6 +11,7 @@ import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import meImage from "@/assets/images/me.png";
+import meCoverImage from "@/assets/images/me-cover.png";
 import { SITE } from "@/config";
 import { SOCIALS } from "@/constants";
 
@@ -75,6 +76,13 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         Grafana is right up there too. Claude Code is newer in my life
         but already daily.
       </p>
+      <Image
+        src={meCoverImage}
+        alt=""
+        width={2055}
+        height={765}
+        class="my-8 w-full rounded-lg"
+      />
       <p class="mt-4">
         Day job is in the public health sector. Every dollar I spend on tooling
         is a taxpayer dollar, and I take that seriously. It keeps me
