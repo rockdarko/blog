@@ -68,3 +68,28 @@ html[data-theme="dark"] {
 :target {
   scroll-margin-block: 1rem;
 }
+
+/* Editorial float used by individual posts that want a small logo/image
+   next to a paragraph. Apply to a wrapping <div> around a markdown image. */
+.post-logo-float {
+  float: right;
+  max-width: 12rem;
+  margin: 0 0 1rem 1.5rem;
+  shape-outside: margin-box;
+}
+.post-logo-float p {
+  margin: 0;
+}
+.post-logo-float img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .post-logo-float {
+    float: none;
+    max-width: 10rem;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+}
