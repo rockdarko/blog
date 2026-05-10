@@ -6,3 +6,7 @@
   platform: bluesky
   url: https://bsky.app/profile/rockdarko.dev/post/3mlhjgwtd2d2v
   posted_at: '2026-05-09T20:39:00-04:00'
+- slug: grafana-dashboard-for-claude-code-on-prometheus
+  platform: reddit-claudecode
+  url: https://www.reddit.com/r/ClaudeCode/comments/1t97aak/grafana_dashboard_for_claude_codes_opentelemetry/
+  posted_at: '2026-05-10T09:44:23.354702-04:00'
