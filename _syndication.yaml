@@ -34,3 +34,7 @@
   platform: linkedin
   url: https://www.linkedin.com/feed/update/urn:li:activity:7459595497629106176/
   posted_at: '2026-05-11T15:58:23.504399-04:00'
+- slug: grafana-dashboard-for-claude-code-on-prometheus
+  platform: reddit-grafana
+  url: https://www.reddit.com/r/grafana/comments/1taxjsh/grafana_dashboard_for_claude_code_cli_metrics_on/
+  posted_at: '2026-05-12T06:31:44.561323-04:00'
