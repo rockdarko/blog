@@ -38,3 +38,7 @@
   platform: reddit-grafana
   url: https://www.reddit.com/r/grafana/comments/1taxjsh/grafana_dashboard_for_claude_code_cli_metrics_on/
   posted_at: '2026-05-12T06:31:44.561323-04:00'
+- slug: grafana-dashboard-for-claude-code-on-prometheus
+  platform: reddit-prometheusmonitoring
+  url: https://www.reddit.com/r/PrometheusMonitoring/comments/1tbyf8t/grafana_dashboard_for_claude_code_metrics/
+  posted_at: '2026-05-13T08:39:28.122720-04:00'
