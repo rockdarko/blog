@@ -42,3 +42,7 @@
   platform: reddit-prometheusmonitoring
   url: https://www.reddit.com/r/PrometheusMonitoring/comments/1tbyf8t/grafana_dashboard_for_claude_code_metrics/
   posted_at: '2026-05-13T08:39:28.122720-04:00'
+- slug: grafana-dashboard-for-claude-code-on-prometheus
+  platform: reddit-sre
+  url: https://www.reddit.com/r/sre/comments/1tewqij/observability_for_ai_tooling_grafana_dashboard/
+  posted_at: '2026-05-16T11:28:36.234729-04:00'
