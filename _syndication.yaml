@@ -50,3 +50,7 @@
   platform: reddit-claudeai
   url: https://www.reddit.com/r/ClaudeAI/comments/1tewvl3/open_source_grafana_dashboard_for_tracking_your/
   posted_at: '2026-05-16T11:32:19.231680-04:00'
+- slug: grafana-dashboard-for-claude-code-on-prometheus
+  platform: reddit-devops
+  url: https://www.reddit.com/r/devops/comments/1texfq2/notes_on_monitoring_claude_code_in_production/
+  posted_at: '2026-05-16T11:54:53.328040-04:00'
