@@ -54,3 +54,7 @@
   platform: reddit-devops
   url: https://www.reddit.com/r/devops/comments/1texfq2/notes_on_monitoring_claude_code_in_production/
   posted_at: '2026-05-16T11:54:53.328040-04:00'
+- slug: grafana-dashboard-for-claude-code-on-prometheus
+  platform: x
+  url: https://x.com/darko_rock/status/2055723163061731567
+  posted_at: '2026-05-16T14:53:30.496829-04:00'
