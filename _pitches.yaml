@@ -1,0 +1,14 @@
+# Earned-media pitch audit log. Append-only via record_pitch MCP tool;
+# updates via update_pitch_status. Query via get_pitches.
+#
+# Schema per entry:
+#   slug: <post slug, matches src/data/blog/<slug>.md>
+#   outlet: <human-readable outlet name, e.g. "Hackaday">
+#   pitch_date: <ISO 8601 with offset>
+#   contact_method: tip-form | email | submission-portal | dm | other
+#   contact: <URL or email used>
+#   pitch_angle: <one-line summary of the framing pitched>
+#   status: pending | no-response | declined | accepted | picked-up
+#   response_date: <ISO 8601 with offset, or null>
+#   coverage_url: <URL if picked-up/accepted, or null>
+#   notes: <free-form, or null>
