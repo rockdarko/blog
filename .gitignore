@@ -26,3 +26,13 @@ pnpm-debug.log*
 # pagefind
 
 public/pagefind
+# Personal action items / pre-publish drafts (kept local)
+todo/
+
+# Claude Code project state
+.claude/
+
+# Personal idea / planning files (kept local, not for repo history)
+blog_ideas_list.md
+ideas/
+fb_groups.md
